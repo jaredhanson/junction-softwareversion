@@ -1,0 +1,29 @@
+{
+  "name": "junction-softwareversion",
+  "version": "0.0.0",
+  "description": "Software Version middleware for Junction.",
+  "keywords": ["junction", "xmpp", "jabber", "version", "softwareversion", "xep0092", "middleware"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/junction-softwareversion.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/junction-softwareversion/issues"
+  },
+  "author": { "name": "Jared Hanson", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "main": "./lib",
+  "dependencies": {
+    "junction": "0.2.x"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js test/**/*-test.js"
+  },
+  "engines": { "node": ">= 0.4.0" }
+}
