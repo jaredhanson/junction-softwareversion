@@ -1,6 +1,6 @@
 {
   "name": "junction-softwareversion",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Software Version middleware for Junction.",
   "keywords": ["junction", "xmpp", "jabber", "version", "softwareversion", "xep0092", "middleware"],
   "repository": {
