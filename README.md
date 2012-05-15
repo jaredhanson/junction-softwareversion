@@ -3,6 +3,31 @@
 [Software Version](http://xmpp.org/extensions/xep-0092.html) middleware built on [Junction](http://github.com/jaredhanson/junction)
 and [Node](http://nodejs.org).
 
+## Installation
+
+    $ npm install junction-softwareversion
+
+## Usage
+
+To respond to requests for information about the software application associated
+with the entity, use `softwareVersion` middleware:
+
+    var softwareVersion = require('junction-softwareversion');
+
+    var app = junction()
+      .use(softwareVersion('Xupptumbler', '1.0', 'Linux'));
+
+## Tests
+
+    $ npm install --dev
+    $ make test
+
+[![Build Status](https://secure.travis-ci.org/jaredhanson/junction-softwareversion.png)](http://travis-ci.org/jaredhanson/junction-softwareversion)
+
+## Credits
+
+  - [Jared Hanson](http://github.com/jaredhanson)
+
 ## License
 
 (The MIT License)
